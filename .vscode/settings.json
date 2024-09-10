@@ -1,0 +1,72 @@
+{
+  "[makefile]": {
+    "editor.insertSpaces": false
+  },
+  "[plaintext]": {
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.unicodeHighlight.invisibleCharacters": false
+  },
+  "[powershell]": 
+  {
+    "debug.saveBeforeStart"                 : "nonUntitledEditorsInActiveGroup",
+    "editor.semanticHighlighting.enabled"   : false,
+    "editor.wordSeparators"                 : "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  },
+  "powershell.codeFormatting.addWhitespaceAroundPipe": true,
+  "powershell.codeFolding.enable"                    : true,
+  "powershell.cwd"                                   : ".\\",
+  "powershell.codeFormatting.preset"                  : "Allman",
+  "powershell.codeFolding.showLastLine"               : true,
+  "powershell.codeFormatting.newLineAfterCloseBrace"  : true,
+  "powershell.codeFormatting.newLineAfterOpenBrace"   : true,
+  "powershell.codeFormatting.autoCorrectAliases"      : true,
+  "powershell.codeFormatting.useCorrectCasing"        : true,
+  "powershell.buttons.showRunButtons"                 : true,
+  "powershell.pester.outputVerbosity"                 : "Detailed",
+  "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+  "powershell.enableReferencesCodeLens"               : true,
+  // --------------------------------------------------------------------------------------------------//
+  "cSpell.enabledLanguageIds"                         : [
+    "English",
+    "czech",
+    "Deutsch"
+],
+"cSpell.enableFiletypes": [
+  "csharp",
+  "css",
+  "elixir",
+  "erlang",
+  "git-commit",
+  "go",
+  "html",
+  "json",
+  "jsonc",
+  "markdown",
+  "restructuredtext",
+  "scminput",
+  "text",
+  "yaml",
+  "yml",
+],
+
+// --------------------------------------------------------------------------------------------------//
+  "bicep.enableSurveys"       : false,
+  "bicep.trace.server"        : "Verbose",
+  "bicep.decompileOnPaste"    : true,
+  "yaml.schemaStore.enable"   : true,
+  "json.format.enable"        : true,
+  "JSON-zain.json.autorefresh": true,
+  "json.schemaDownload.enable": true,
+  "json.validate.enable"      : true,
+  "json.format.keepLines"     : false,
+   "[bicep]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.insertFinalNewline": true,
+    "editor.suggestSelection": "first",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggest.showWords": true
+   }
+
+   
+}

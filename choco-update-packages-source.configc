@@ -1,0 +1,27 @@
+<Settings>
+  <Preferences>
+    <ConfigArguments></ConfigArguments>
+    <DebugLogging>FALSE</DebugLogging>
+    <DefaultUserProfile>philip</DefaultUserProfile>
+    <DeleteNewDesktopIcons>TRUE</DeleteNewDesktopIcons>  
+    <DeleteNewStartMenuIcons>FALSE</DeleteNewStartMenuIcons>
+    <StopCUAAfter></StopCUAAfter>
+    <PreProcessScript></PreProcessScript>
+    <PostProcessScript></PostProcessScript>
+  </Preferences>
+</Settings>
+
+<!--
+#######################################################################################################################
+# NOTE: All settings are disabled by default
+# LEGEND:
+# * ConfigArguments    - Additional options and switches to pass to choco.exe; e.g. Run choco upgrade /? to view options.
+# * DebugLogging       - (True/False) Extra logging - EXPERIMENTAL
+# * DefaultUserProfile - Default user profile to use when running as scheduled task; e.g. William, Robert, Benjamin (Look at C:\Users)
+# * DeleteNewDesktopIcons   - (True/False) Delete newly created Desktop icons, user and public, after choco upgrade all
+# * DeleteNewStartMenuIcons - (True/False) Delete newly created Start Menu icons, user and public, after choco upgrade all
+# * StopCUAAfter       - Not implemented yet
+# * PreProcessScript   - Script to run before choco upgrade all; e.g. c:\scripts\beforechoco.bat
+# * PostProcessScript  - Script to run after choco upgrade all; e.g. c:\scripts\afterchoco.bat
+#######################################################################################################################
+-->

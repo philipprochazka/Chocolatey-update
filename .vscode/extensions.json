@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "ms-azuretools.vscode-bicep",
+    "sleistner.vscode-fileutils",
+    "ms-vscode.cmake-tools",
+    "streetsidesoftware.code-spell-checker",
+    "EditorConfig.EditorConfig",
+    "usernamehw.errorlens"
+    "vsls-contrib.gistfs"
+    "christian-kohler.path-intellisense"
+    "fabianlauer.vs-code-xml-format"
+    "Gruntfuggly.todo-tree"
+    "LouisWT.regexp-preview",
+    "ms-vscode-remote.remote-ssh-edit"
+    "ms-vscode-remote.vscode-remote-extensionpack"
+    "ms-vscode.powershell",
+    "oderwat.indent-rainbow"
+    "Pod212.vscode-github-projects"
+    "redhat.vscode-yaml"
+
+  ]
+}
