@@ -1,7 +1,8 @@
 {
+  "workbench.extensions.installMissingDependencies" : true,
   "[makefile]": {
-    "editor.insertSpaces": false
-  },
+    "editor.insertSpaces": true,
+    },
   "[plaintext]": {
     "editor.unicodeHighlight.ambiguousCharacters": true,
     "editor.unicodeHighlight.invisibleCharacters": false
@@ -15,22 +16,33 @@
   "powershell.codeFormatting.addWhitespaceAroundPipe": true,
   "powershell.codeFolding.enable"                    : true,
   "powershell.cwd"                                   : ".\\",
-  "powershell.codeFormatting.preset"                  : "Allman",
-  "powershell.codeFolding.showLastLine"               : true,
-  "powershell.codeFormatting.newLineAfterCloseBrace"  : true,
-  "powershell.codeFormatting.newLineAfterOpenBrace"   : true,
-  "powershell.codeFormatting.autoCorrectAliases"      : true,
-  "powershell.codeFormatting.useCorrectCasing"        : true,
-  "powershell.buttons.showRunButtons"                 : true,
-  "powershell.pester.outputVerbosity"                 : "Detailed",
-  "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
-  "powershell.enableReferencesCodeLens"               : true,
-  // --------------------------------------------------------------------------------------------------//
+  "powershell.codeFormatting.preset"                          : "Allman",
+  "powershell.codeFolding.showLastLine"                       : true,
+  "powershell.codeFormatting.newLineAfterCloseBrace"          : true,
+  "powershell.codeFormatting.newLineAfterOpenBrace"           : true,
+  "powershell.codeFormatting.autoCorrectAliases"              : true,
+  "powershell.codeFormatting.useCorrectCasing"                : true,
+  "powershell.buttons.showRunButtons"                         : true,
+  "powershell.pester.outputVerbosity"                         : "Detailed",
+  "powershell.codeFormatting.trimWhitespaceAroundPipe"        : true,
+  "powershell.enableReferencesCodeLens"                       : true,
+  "powershell.analyzeOpenDocumentsOnly"                       : false,
+  "powershell.buttons.showPanelMovementButtons"               : true,
+  "powershell.enableProfileLoading"                           : true,
+  "powershell.codeFormatting.alignPropertyValuePairs"         : true,
+  "powershell.codeFormatting.avoidSemicolonsAsLineTerminators": false,
+  "powershell.codeFormatting.ignoreOneLineBlock"              : false,
+  
+  "[ahk2]"                 : {},
+  "ahk++.file.compilerPath": "C:/Program Files/AutoHotkey/Compiler/Ahk2Exe.exe",
+    // --------------------------------------------------------------------------------------------------//
   "cSpell.enabledLanguageIds"                         : [
     "English",
     "czech",
-    "Deutsch"
-],
+    "Deutsch",
+    "COBOL",
+    "ACUCOBOL"
+  ],
 "cSpell.enableFiletypes": [
   "csharp",
   "css",
@@ -48,7 +60,6 @@
   "yaml",
   "yml",
 ],
-
 // --------------------------------------------------------------------------------------------------//
   "bicep.enableSurveys"       : false,
   "bicep.trace.server"        : "Verbose",
@@ -66,7 +77,9 @@
     "editor.suggestSelection": "first",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggest.showWords": true
-   }
+   },
+   "firefox.executable": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+
 
    
 }
